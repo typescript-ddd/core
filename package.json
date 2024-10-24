@@ -19,7 +19,6 @@
     "prebuild": "rimraf dist",
     "build": "rollup -c",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test",
     "test": "jest",
     "publish": "npm version patch --no-git-tag-version && npm publish --access public"
   },

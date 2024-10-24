@@ -1,10 +1,15 @@
 {
   "name": "@typescript-ddd/core",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Domain driven design library for TypeScript",
-  "keywords": ["typescript", "ddd", "domain-driven-design", "library"],
+  "keywords": [
+    "typescript",
+    "ddd",
+    "domain-driven-design",
+    "library"
+  ],
   "author": "John Robinson <johnrob1880@gmail.com>",
-  "license": "MIT",  
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -17,7 +22,7 @@
     "prepublishOnly": "npm test",
     "test": "jest",
     "publish": "npm version patch --no-git-tag-version && npm publish --access public"
-  },  
+  },
   "devDependencies": {
     "@types/jest": "^29.5.3",
     "@types/supertest": "^2.0.12",

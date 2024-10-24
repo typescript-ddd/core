@@ -5,7 +5,7 @@ A TypeScript library for domain driven design
 ## Installation
 
 ```bash
-npm install
+npm install @typescript-ddd/core
 ```
 
 Run tests:

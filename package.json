@@ -1,6 +1,6 @@
 {
   "name": "@typescript-ddd/core",
-  "version": "0.1.2",
+  "version": "0.1.13",
   "description": "Domain driven design library for TypeScript",
   "keywords": [
     "typescript",

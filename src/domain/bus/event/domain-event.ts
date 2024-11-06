@@ -6,6 +6,8 @@ export abstract class DomainEvent<T = any> {
   protected constructor(
     public readonly aggregateId: EntityId,
     public readonly type: string,
-    public readonly payload?: T
+    public readonly payload?: T,
   ) {}
+
+  protected $version: number = 0;
 }

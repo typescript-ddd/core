@@ -20,7 +20,7 @@
     "build": "rollup -c",
     "prepare": "npm run build",
     "test": "jest",
-    "publish": "npm version patch --no-git-tag-version && npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.3.0",
